@@ -5,12 +5,12 @@ import "../shared/Shared.css";
 import { motion, useAnimation } from "framer-motion";
 import {
   FaUserAlt,
-  FaPhoneAlt,
+  FaCalendarAlt,
   FaLocationArrow,
   FaLinkedin,
   FaGithubSquare,
-  FaFacebookSquare,
-  FaInstagramSquare,
+  FaTelegramPlane,
+  FaCode,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import emailjs from "@emailjs/browser";
@@ -42,10 +42,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "itsproali_portfolio",
-        "itsproali_portfolio",
+        "daksh_2006officialmail",
+        "template_59pk12i",
         form.current,
-        "H-ispiDvwdbG_76iq"
+        "OqgYdp-QPOr4OkyWJ"
       )
       .then(
         (result) => {
@@ -144,18 +144,18 @@ const Contact = () => {
             <h3 className="font-medium text-primary">Daksh Yadav</h3>
           </div>
           <div className="flex items-center my-6">
-            <FaPhoneAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaPhoneAlt>
-            <h3 className="font-medium text-primary">+88 01884622861</h3>
+            <FaCalendarAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaCalendarAlt>
+            <h3 className="font-medium text-primary">27/04/2006</h3>
           </div>
           <div className="flex items-center my-6">
             <MdEmail className="text-3xl mr-8 hover:text-primary cursor-pointer duration-300"></MdEmail>
-            <h3 className="font-medium text-primary">itsproali@gmail.com</h3>
+            <h3 className="font-medium text-primary">admin@daksh.gq</h3>
           </div>
           <div className="flex items-center my-6">
             <FaLocationArrow className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaLocationArrow>
 
             <h3 className="font-medium text-primary">
-              Sarulia, Demra, Dhaka, Bangladesh - 1361
+              India, Earth
             </h3>
           </div>
           <div className="mt-8 flex items-center">
@@ -169,25 +169,25 @@ const Contact = () => {
               <FaLinkedin></FaLinkedin>
             </a>
             <a
-              href="https://www.github.com/itsproali"
+              href="https://www.github.com/dakshy"
               target="blank"
               className="text-3xl text-gray-400 hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaGithubSquare></FaGithubSquare>
             </a>
             <a
-              href="https://www.facebook.com/itsproali"
+              href="https://t.me/toonshub2006"
               target="blank"
               className="text-3xl text-gray-400 hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaFacebookSquare></FaFacebookSquare>
+              <FaTelegramPlane></FaTelegramPlane>
             </a>
             <a
-              href="https://www.instagram.com/itsproali"
+              href="https://code.daksh.gq"
               target="blank"
               className="text-3xl text-gray-400 hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaInstagramSquare></FaInstagramSquare>
+              <FaCode></FaCode>
             </a>
           </div>
         </motion.div>

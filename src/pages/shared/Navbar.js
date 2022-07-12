@@ -22,9 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { title: "Home", link: "/", icon: <FaHome /> },
     { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
-    { title: "Project", link: "/project", icon: <MdWork /> },
     { title: "Contact", link: "/contact", icon: <RiContactsBook2Fill /> },
-    { title: "Blog", link: "/blog", icon: <ImBlog /> },
   ];
   const activeLink = ({ isActive }) => {
     return {
@@ -56,11 +54,11 @@ export default function Navbar() {
 
             <a
               className="inline-block ml-4"
-              href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
+              href="https://code.daksh.gq"
               target="blank"
             >
               <button className="primary-button">
-                <span>My Resume</span>
+                <span>My Codes</span>
               </button>
             </a>
           </ul>
@@ -101,11 +99,11 @@ export default function Navbar() {
                 <li className="text-center m-4">
                   <a
                     className="inline-block w-full"
-                    href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
+                    href="https://code.daksh.gq"
                     target="blank"
                   >
                     <button className="btn btn-primary w-full text-white">
-                      <span>My Resume</span>
+                      <span>My Codes</span>
                     </button>
                   </a>
                 </li>

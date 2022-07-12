@@ -117,14 +117,14 @@ const About = () => {
               />
             </div>
             <p className="text-gray-400 font-medium">
-              A Student doing programming as a hobby. Capable to solve every problem.
+              A Student doing programming as a hobby. Capable in solving every problem.
               Passionate about learning & development to reach the target. Eager
               to tackle more complex problems and continue to find ways to
               maximize my productivity.
             </p>
             <br />
             <p className="text-gray-400 font-medium">
-              My next mission is how to crack NEET and do MBBS. Still I would
+              My next mission is how to crack NEET and have a successful career. Still I would
               love to continue my hobby of programming.
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4">
