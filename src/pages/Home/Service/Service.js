@@ -49,11 +49,11 @@ const Service = () => {
             <DiAtom className="text-primary text-5xl inline-block"></DiAtom>
           </div>
           <h2 className="text-2xl font-semibold text-center mb-4">
-            Front end Development
+            Front-end Development
           </h2>
           <p className="text-gray-400">
-            As a Front-end developer, I would love to develope any front-end
-            application using React and its libraries.
+            As a Front-end developer, I love to develop any front-end
+            application using different libraries in different languages.
           </p>
         </div>
 
@@ -62,11 +62,11 @@ const Service = () => {
             <FiServer className="text-primary text-5xl inline-block"></FiServer>
           </div>
           <h2 className="text-2xl font-semibold text-center mb-4">
-            MERN Development
+            Backend Development
           </h2>
           <p className="text-gray-400">
-            I am very familiar with NodeJS, Express JS, and MongoDB. So I can
-            build full-stack application with MERN.
+            I am trying my level best to learn to develop light-weight backend
+            application in PHP & Python.
           </p>
         </div>
 
@@ -78,8 +78,8 @@ const Service = () => {
             Web Design
           </h2>
           <p className="text-gray-400">
-            I also provide Fully Responsive Static Website Design with HTML,
-            CSS, Bootstrap, Tailwind.
+            I can also make Fully Responsive Static/Dynamic Website Design with HTML,
+            CSS, Bootstrap & JS.
           </p>
         </div>
       </motion.div>
