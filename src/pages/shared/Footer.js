@@ -15,7 +15,7 @@ const Footer = () => {
           className="text-primary hover:underline"
           target="blank"
         >
-          Mohammad Ali
+          Daksh Yadav
         </a>
       </footer>
     </>

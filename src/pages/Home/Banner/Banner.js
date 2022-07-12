@@ -23,7 +23,7 @@ const Banner = () => {
         transition={{ duration: 1.5 }}
       >
         <h2 className="text-gray-400 text-xl font-medium">Hello, I'm</h2>
-        <h1 className="text-4xl font-semibold mb-0">Mohammad Ali</h1>
+        <h1 className="text-4xl font-semibold mb-0">Daksh Yadav</h1>
         <div className="my-4">
           <TypeAnimation
             className="text-2xl text-primary font-bold"
@@ -31,9 +31,9 @@ const Banner = () => {
             sequence={[
               "A Front-end Developer",
               2000,
-              "A React JS Developer",
+              "A Class 11 Student",
               2000,
-              "A Jr. Web Developer",
+              "A Biology Student",
               2000,
             ]}
             wrapper="div"
@@ -47,11 +47,11 @@ const Banner = () => {
 
         <div className="flex items-center">
           <a
-            href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
+            href="https://code.daksh.gq"
             target="blank"
           >
             <button className="primary-button">
-              <span>My Resume</span>
+              <span>My Codes</span>
             </button>
           </a>
           <Link to="/about" className="ml-4">
@@ -67,7 +67,7 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1.5 }}
       >
-        {/* <img src="https://i.ibb.co/rf89pDm/coding.png" alt="Mohammad Ali" /> */}
+        {/* <img src="https://i.ibb.co/rf89pDm/coding.png" alt="Daksh Yadav" /> */}
         <Lottie options={defaultOptions} height="90%" width="90%" />
       </motion.div>
     </div>

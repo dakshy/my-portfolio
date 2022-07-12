@@ -2,21 +2,23 @@ import React from "react";
 import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaNodeJs,
+  FaJava,
+  FaPython,
+  FaPhp,
   FaReact,
   FaBootstrap,
   FaGithub,
-  FaFigma,
 } from "react-icons/fa";
 import {
   SiJavascript,
   SiTailwindcss,
   SiExpress,
   SiMongodb,
-  SiAdobephotoshop,
+  SiWordpress,
 } from "react-icons/si";
+import {
+  TbApi,
+} from "react-icons/tb";
 import Lottie from "react-lottie";
 import man from "../../assets/man.json";
 import "./About.css";
@@ -26,13 +28,13 @@ import BottomLine from "../../components/BottomLine";
 
 const About = () => {
   const languages = [
-    { title: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
-    { title: "CSS", icon: <FaCss3Alt className="text-blue-400" /> },
+    { title: "Java", icon: <FaJava className="text-orange-600" /> },
+    { title: "Python", icon: <FaPython className="text-blue-400" /> },
     {
       title: "JavaScript",
       icon: <SiJavascript className="text-yellow-500 rounded" />,
     },
-    { title: "NodeJS", icon: <FaNodeJs className="text-green-600" /> },
+    { title: "PHP", icon: <FaPhp className="text-green-600" /> },
   ];
   const frameworks = [
     { title: "React", icon: <FaReact className="text-cyan-400" /> },
@@ -43,10 +45,10 @@ const About = () => {
   const tools = [
     { title: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
     { title: "GitHub", icon: <FaGithub className="text-black" /> },
-    { title: "Figma", icon: <FaFigma className="" /> },
+    { title: "APIs", icon: <TbApi className="" /> },
     {
-      title: "Photoshop",
-      icon: <SiAdobephotoshop className="text-cyan-800" />,
+      title: "WordPress",
+      icon: <SiWordpress className="text-cyan-800" />,
     },
   ];
 
@@ -83,8 +85,8 @@ const About = () => {
             }}
           >
             <img
-              src="https://i.ibb.co/c6rZ6wN/bg-shape.png"
-              alt="Mohammad Ali"
+              src="https://avatars.githubusercontent.com/u/67213740"
+              alt="Daksh Yadav"
               className="mx-auto"
             />
           </motion.div>
@@ -97,7 +99,7 @@ const About = () => {
               transition: { duration: 1, delay: 2 },
             }}
           >
-            <h1 className="text-4xl font-semibold mb-0">Mohammad Ali</h1>
+            <h1 className="text-4xl font-semibold mb-0">Daksh Yadav</h1>
             <div className="my-2">
               <TypeAnimation
                 className="text-2xl text-primary font-bold"
@@ -105,9 +107,9 @@ const About = () => {
                 sequence={[
                   "A Front-end Developer",
                   2000,
-                  "A React JS Developer",
+                  "A Class 11 Student",
                   2000,
-                  "A Jr. Web Developer",
+                  "A Biology Student",
                   2000,
                 ]}
                 wrapper="div"
@@ -115,38 +117,36 @@ const About = () => {
               />
             </div>
             <p className="text-gray-400 font-medium">
-              Dedicated Front-end developer. Capable to solve working problems.
+              A Student doing programming as a hobby. Capable to solve every problem.
               Passionate about learning & development to reach the target. Eager
               to tackle more complex problems and continue to find ways to
-              maximize user efficiency.
+              maximize my productivity.
             </p>
             <br />
             <p className="text-gray-400 font-medium">
-              My next mission is how to become a Mern stack Developer. I would
-              love to build some Giant Website which will shine myself.
+              My next mission is how to crack NEET and do MBBS. Still I would
+              love to continue my hobby of programming.
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4">
               <h2 className="font-medium">
-                <span className="mr-4 text-primary">Name: </span>Mohammad Ali
+                <span className="mr-4 text-primary">Name: </span>Daksh Yadav
               </h2>
               <h2 className="font-medium">
-                <span className="mr-4 text-primary">Phone: </span>+880
-                1884622861
+                <span className="mr-4 text-primary">Age: </span>16
               </h2>
               <h2 className="font-medium">
                 <span className="mr-4 text-primary">Email: </span>
-                itsproali@gmail.com
+                admin@daksh.gq
               </h2>
               <h2 className="font-medium">
-                <span className="mr-4 text-primary">Address: </span>Sarulia,
-                Demra, Dhaka
+                <span className="mr-4 text-primary">Address: </span>India, Earth
               </h2>
               <a
-                href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
+                href="https://code.daksh.gq"
                 target="blank"
               >
                 <button className="primary-button">
-                  <span>My Resume</span>
+                  <span>My Codes</span>
                 </button>
               </a>
             </div>

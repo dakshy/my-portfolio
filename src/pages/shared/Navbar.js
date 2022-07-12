@@ -41,7 +41,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between  px-3 md:px-24 py-3">
         <div>
           <Link to="/">
-            <h1 className="text-2xl text-primary font-lobster">Mohammad Ali</h1>
+            <h1 className="text-2xl text-primary font-lobster">Daksh Yadav</h1>
           </Link>
         </div>
         <div>
